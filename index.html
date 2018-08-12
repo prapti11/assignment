@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <section class="main">
+  	<nav class="navbar navbar-default navbar-fixed-top" id="nav">
+  		<div class="container-fluid">
+  			<div class="container">
+  				<div class="navbar-header col-md-3">
+  					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span> 
+            </button>
+  					<a href="#">WebsiteName</a>
+  				</div>
+  				<div class="collapse navbar-collapse col-md-9 navbar-right" id="myNavbar">
+
+  					<ul class="nav navbar-nav">
+  						<li><a href="#">About us</a></li>
+  						<li>
+  						  <form class="navbar-form navbar-left" action="/action_page.php">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                      <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                   </div>
+               </form>
+              </li>
+  						<li><a href="#">Log In</a></li>
+  						<li ><a class="start" href="#">Get Started</a></li>
+  					</ul>
+  				</div>
+  			</div>
+  		</div>
+  	</nav>
+  	<div  class="text-center" id="tell_a_story">
+  		<h1><strong><i>Tell a Story</i></strong></h1>
+      <p>Stories have been shared in every culture for millions of years –<br> starting with rudimentary drawings by people who lived in caves –<br> as a means of entertainment, education, cultural preservation and instilling moral values.<br>“Storytelling is the most powerful way to put ideas into the world.” – Robert McKee</p>
+  	</div>
+  </section>
+  <section>
+    
+    
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  	$(window).scroll(function(){
+  		if($(document).scrollTop()>50){
+  			$("#nav").addClass("shrink");
+  		}
+  		else{
+  			$("#nav").removeClass("shrink");
+  		}
+  	});
+  </script>
+</body>
+</html>

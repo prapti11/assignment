@@ -1,0 +1,70 @@
+body{
+	overflow-x: hidden;
+}
+nav{
+	position: absolute;
+	top:0;
+    background-color:transparent !important;
+    border:none;
+    color: #fff;
+}
+nav .shrink{
+	background-color: black !important;
+}
+.navbar-header{
+	margin-top: 26px;
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-header a{
+	text-decoration: none;
+	font-size: 2.5rem;
+	font-weight: 650;
+	color: #fff;
+}
+nav.shrink.navbar-header a{
+	font-size: 2rem;
+}
+nav li{
+	padding: 15px;
+}
+nav li a{
+
+    font-size: 1.4rem;
+	text-decoration: none;
+	color: #fff !important;
+}
+nav li a.start{
+ 	background-color: #fff;
+ 	color: black !important;
+	border:1px solid #fff !important;
+}
+nav li a.start:hover{
+ 	color: #fff !important;
+	border:1px solid #fff !important;
+	transition: all 0.3s;
+}
+#tell_a_story{
+	color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	position: absolute;
+}
+#tell_a_story p{
+	text-align: center !important;
+	word-spacing: 10px;
+	line-height: 30px;
+	font-size: 16px;
+} 
+.main{
+	width: 100vw;
+	height: 100vh;
+	background: url(../images/story.jpg) no-repeat center center fixed; 
+	opacity: 0.75;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
